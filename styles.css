@@ -4,3 +4,47 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5px;
+}
+
+nav {
+    color: #fff;
+    background-color: #000;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+ul.navbar li {
+  display: inline-block;
+}
+
+ul.navbar li:last-child {
+  margin-left: auto;
+}
+
+ul.navbar li a {
+    color: #fff;
+    display: block;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+ul.navbar li a:hover {
+    background-color: lightgray;
+    color: #333;
+}
