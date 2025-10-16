@@ -489,7 +489,7 @@ h1.hero-title {
 }
 
 .hero-card h2 {
-  top: 20px;
+  top: 150px;
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
   letter-spacing: 1px;
@@ -500,7 +500,7 @@ h1.hero-title {
   color: #f8c9da;
 }
 .hero-card button {
-  top: 120px;
+  bottom: 16px;
   padding: 6px 12px;
   background-color: #f06292;
   border: none;
