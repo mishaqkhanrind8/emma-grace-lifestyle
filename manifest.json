@@ -1,0 +1,21 @@
+{
+  "name": "Emma Grace Lifestyle",
+  "short_name": "EmmaGrace",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ff66b2",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

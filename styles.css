@@ -460,9 +460,54 @@ footer.blog-footer button:hover {
 }
 
 @media (max-width: 600px) {
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
   .grid-container {
     grid-template-columns: 1fr;
       gap: 10px;
   }
+
+h1.hero-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 3.5rem;
+}
+
+.hero-card h2,
+.hero-card button {
+  position: absolute;
+  left: 40px;
+  color: #fff;
+  z-index: 100;
+}
+
+.hero-card h2 {
+  top: 10%;        /* position from bottom of image */
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.hero-card h2 span {
+    font-size: 1.9rem;
+  color: #f8c9da; /* Emma Grace pink accent */
+}
+.hero-card button {
+  top: 45%;         /* slightly below the heading */
+  padding: 6px 12px;
+  background-color: #f06292;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 }
