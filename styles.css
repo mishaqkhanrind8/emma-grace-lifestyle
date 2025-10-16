@@ -498,7 +498,7 @@ h1.hero-title {
   color: #f8c9da; /* Emma Grace pink accent */
 }
 .hero-card button {
-  top: 45%;         /* slightly below the heading */
+  top: 55%;         /* slightly below the heading */
   padding: 6px 12px;
   background-color: #f06292;
   border: none;
