@@ -161,9 +161,10 @@ article img {
   margin-top: 0 !important;
 }
 
-article p {
+article p, .article h2 {
   line-height: 1.5;
   margin: 1rem auto;
+  padding: 10px;
 }
 
 .btn-section {
