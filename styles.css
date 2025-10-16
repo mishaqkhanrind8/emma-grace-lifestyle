@@ -174,7 +174,8 @@ margin: 0 10px;
 .btn-section {
   display: flex;
   justify-content: space-between;
- gap: 10px; 
+ gap: 10px;
+  padding: 0 10px;
 }
 
 .like-btn {
