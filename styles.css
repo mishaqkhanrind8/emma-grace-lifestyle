@@ -510,4 +510,10 @@ h1.hero-title {
   transition: background-color 0.3s ease;
 }
 
+article {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  margin: 1.5rem auto;
+}
+
 }
