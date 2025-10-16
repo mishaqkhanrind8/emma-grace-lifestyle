@@ -489,7 +489,7 @@ h1.hero-title {
 }
 
 .hero-card h2 {
-  top: 10%;        /* position from bottom of image */
+  top: 20px;
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
   letter-spacing: 1px;
@@ -497,10 +497,10 @@ h1.hero-title {
 
 .hero-card h2 span {
     font-size: 1.9rem;
-  color: #f8c9da; /* Emma Grace pink accent */
+  color: #f8c9da;
 }
 .hero-card button {
-  top: 45%;         /* slightly below the heading */
+  top: 40px;
   padding: 6px 12px;
   background-color: #f06292;
   border: none;
