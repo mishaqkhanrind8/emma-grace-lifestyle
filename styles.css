@@ -461,7 +461,121 @@ footer.blog-footer button:hover {
     color: #d3d3d3;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1280px) {
+  
+.hero-card h2,
+.hero-card button {
+  position: absolute;
+  left: 40px;
+  color: #fff;
+  z-index: 100;
+}
+
+.hero-card h2 {
+  top: 50%;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.hero-card h2 span {
+    font-size: 65px;
+  color: #f8c9da;
+}
+
+.hero-card button {
+  top: 75%;
+  padding: 10px 20px;
+  background-color: #f06292;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+      gap: 15px;
+  }
+  
+.hero-card h2,
+.hero-card button {
+  position: absolute;
+  left: 40px;
+  color: #fff;
+  z-index: 100;
+}
+
+.hero-card h2 {
+  top: 200px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.hero-card h2 span {
+    font-size: 3rem;
+  color: #f8c9da;
+}
+.hero-card button {
+  top: 400px;         /* slightly below the heading */
+  padding: 6px 12px;
+  background-color: #f06292;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+}
+
+@media (max-width: 540px) {
+  .hero-card h2,
+.hero-card button {
+  position: absolute;
+  left: 20px;
+  color: #fff;
+  z-index: 100;
+}
+
+.hero-card h2 {
+  top: 150px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.hero-card h2 span {
+    font-size: 2.5rem;
+  color: #f8c9da;
+}
+
+.hero-card button {
+  top: 280px;         /* slightly below the heading */
+  padding: 6px 12px;
+  background-color: #f06292;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+}
+
+@media (max-width: 480px) {
 
 body {
   font-size: 14px;
@@ -483,13 +597,13 @@ h1.hero-title {
 .hero-card h2,
 .hero-card button {
   position: absolute;
-  left: 40px;
+  left: 20px;
   color: #fff;
   z-index: 100;
 }
 
 .hero-card h2 {
-  top: 60px;
+  top: 100px;
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
   letter-spacing: 1px;
@@ -500,7 +614,7 @@ h1.hero-title {
   color: #f8c9da;
 }
 .hero-card button {
-  top: 45%;         /* slightly below the heading */
+  top: 200px;         /* slightly below the heading */
   padding: 6px 12px;
   background-color: #f06292;
   border: none;
