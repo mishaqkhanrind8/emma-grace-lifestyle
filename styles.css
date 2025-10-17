@@ -80,7 +80,6 @@ span.bg-dark {
     position: relative;
     width: 100%;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 .hero-card img {
@@ -88,7 +87,6 @@ span.bg-dark {
   height: auto;
   display: block;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 .hero-card h2,
@@ -100,7 +98,7 @@ span.bg-dark {
 }
 
 .hero-card h2 {
-  top: 30%;        /* position from bottom of image */
+  top: 30%;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   letter-spacing: 1px;
@@ -108,11 +106,11 @@ span.bg-dark {
 
 .hero-card h2 span {
     font-size: 65px;
-  color: #f8c9da; /* Emma Grace pink accent */
+  color: #f8c9da;
 }
 
 .hero-card button {
-  top: 57%;         /* slightly below the heading */
+  top: 57%;
   padding: 10px 20px;
   background-color: #f06292;
   border: none;
@@ -145,7 +143,6 @@ article {
 article img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
   display: block;
   margin: 0 auto;
 }
@@ -164,15 +161,21 @@ article img {
   margin-top: 0 !important;
 }
 
-article p {
+article p, .article h2 {
   line-height: 1.5;
   margin: 1rem auto;
+  padding: 0 10px;
+}
+
+.article button {
+margin: 0 10px;
 }
 
 .btn-section {
   display: flex;
   justify-content: space-between;
- gap: 10px; 
+ gap: 10px;
+  padding: 0 10px;
 }
 
 .like-btn {
@@ -227,7 +230,6 @@ article p {
 
 
 .profile-intro img {
-  border-radius: 10px 10px 0 0;
   display: block;
   width: 100%;
   height: auto;
@@ -481,24 +483,24 @@ h1.hero-title {
 .hero-card h2,
 .hero-card button {
   position: absolute;
-  left: 20px;
+  left: 40px;
   color: #fff;
   z-index: 100;
 }
 
 .hero-card h2 {
-  top: 10%;        /* position from bottom of image */
+  top: 60px;
   font-family: 'Playfair Display', serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   letter-spacing: 1px;
 }
 
 .hero-card h2 span {
-    font-size: 1.9rem;
-  color: #f8c9da; /* Emma Grace pink accent */
+    font-size: 1.5rem;
+  color: #f8c9da;
 }
 .hero-card button {
-  top: 55%;         /* slightly below the heading */
+  top: 45%;         /* slightly below the heading */
   padding: 6px 12px;
   background-color: #f06292;
   border: none;
@@ -508,6 +510,12 @@ h1.hero-title {
   font-size: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+article {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  margin: 1.5rem auto;
 }
 
 }
